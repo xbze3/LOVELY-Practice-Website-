@@ -1,0 +1,343 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+#home {
+    background-image: url(background.png); 
+}
+
+#product-header {
+    background-image: url(background.png);
+    padding-bottom: 280px;
+    margin-bottom: 0px;
+}
+
+#nav-bar {
+    padding: 35px;
+    overflow: hidden;
+    font-family: 'Rubik';
+}
+
+#left-links {
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+}
+
+#right-links {
+    float: right;
+    text-align: center;
+}
+
+#lovely-logo {
+    height: 80px;
+    width: 170px;
+}
+
+#logo-link {
+    float: none;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.links {
+    text-decoration: none;
+    color: rgb(32, 32, 32);
+    margin: 20px;
+    position: relative;
+}
+
+#home-link {
+    margin-right: 63px;
+}
+
+#contact-link {
+    margin-left: 63px;
+}
+
+#miniRose1 {
+    height: 40px;
+    display: block;
+    margin-left: 53px;
+    margin-top: 25px;
+    position: absolute;
+    display: none;
+}
+
+#miniRose2 {
+    height: 40px;
+    display: block;
+    margin-left: 196px;
+    margin-top: 25px;
+    position: absolute;
+    display: none;
+}
+
+
+#miniRose3 {
+    height: 40px;
+    display: block;
+    margin-left: calc(100% - 248px);
+    margin-top: 25px;
+    position: absolute;
+    display: none;
+}
+
+#miniRose4 {
+    height: 40px;
+    display: block;
+    margin-left: calc(100% - 108px);
+    margin-top: 25px;
+    position: absolute;
+    display: none;
+}
+
+header {
+    margin-top: 35px;
+    display: flex;
+}
+
+#header {
+    display: inline-block;
+}
+
+#header-logo {
+    margin-left: 60px;
+    margin-top: 30px;
+    height: 400px;
+    display: inline-block;
+}
+
+#introDiv {
+    display: inline-block;
+    width: 650px;
+    margin-left: 70px;
+    margin-top: 170px;
+}
+
+#intro {
+    margin-top: 0px;
+    display: inline-block;
+    font-family: 'Rubik';
+    font-style: italic;
+    font-size: large;
+    letter-spacing: 1px;
+    line-height: 28px;
+}
+
+
+#product-banner {
+    margin-top: 100px;
+    margin-left: 100px;
+    font-family: 'Rubik';
+    color: red;
+    font-size: 100px;
+}
+
+.transition {
+    background-color: rgb(255, 51, 51);
+    text-align: center;
+}
+
+.transition > h2 {
+    margin-top: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: "Rubik";
+    color: white;
+    letter-spacing: 5px;
+    margin-bottom: 0px;
+}
+
+#product-cards {
+    font-family: "Rubik";
+    background-image: url(Altbackground.png);
+    padding-bottom: 50px;
+}
+
+
+
+#start-card {
+    background-color: white;
+    display: inline-block;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 40px;
+    margin-left: 60px;
+    margin-bottom: 0px;
+}
+
+#startCard-section {
+}
+
+#startCard-image {
+    height: 100px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+#startCard-desc {
+    border: 1px solid blue;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    text-align: center;
+    
+}
+
+
+
+#middle-card {
+    background-color: white;
+    display: inline-block;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-bottom: 0px;
+}
+
+#middleCard-section {
+}
+
+#middleCard-image {
+    height: 100px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+#middleCard-desc {
+    border: 1px solid blue;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+
+
+#end-card {
+    background-color: white;
+    display: inline-block;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-bottom: 0px;
+}
+
+#endCard-section {
+}
+
+#endCard-image {
+    height: 100px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+#endCard-desc {
+    border: 1px solid blue;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+#card-link {
+    text-decoration: none;
+    color: black;
+}
+
+#footer {
+    background-color: rgb(255, 51, 51);
+
+
+}
+
+#footer > h2 {
+    margin-top: 0px;
+    margin-left: 65px;
+    padding-top: 20px;
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+    font-family: "Rubik";
+    color: white;
+    letter-spacing: 5px;
+    display: inline-block;
+}
+
+#footer > h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 65px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    font-family: "Rubik";
+    color: white;
+    letter-spacing: 2px;
+    float: right;
+}
+
+@media (max-width: 1235px) {
+
+    #header-logo {
+        margin-left: 20px;
+        margin-top: 30px;
+        height: 400px;
+        display: inline-block;
+    }
+    
+    #introDiv {
+        display: inline-block;
+        width: 650px;
+        margin-left: 20px;
+        margin-top: 170px;
+    }
+
+}
+
+@media (max-width: 1140px) {
+
+    #header-logo {
+        height: 400px;
+        display: block;
+    }
+
+    header {
+        display: block;
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 710px) {
+
+    #header-logo {
+        height: 350px;
+        display: block;
+        justify-content: center;
+    }
+
+    header {
+        display: block;
+        text-align: center;
+    }
+
+    #introDiv {
+        display: block;
+        text-align: center;
+    }
+    
+    #intro {
+        margin-top: 0px;
+        display: inline-block;
+        font-family: 'Rubik';
+        font-style: italic;
+        letter-spacing: 1px;
+        line-height: 28px;
+    }
+    
+    
+}
